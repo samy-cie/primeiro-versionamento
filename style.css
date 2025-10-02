@@ -1,0 +1,43 @@
+.box {
+    border: 1px solid #ccc;
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    height: auto;
+}
+
+.full {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+}
+
+h1 {
+    font-size: medium;
+    text-align: left;
+}
+
+.avaliacao {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    color: gray;
+}
+
+.avaliacao img {
+    width: 80px;
+    height: auto;
+}
+
+.total {
+    width: 1%;
+    left: 10px;
+    font-size: 14px;
+
+}
